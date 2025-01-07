@@ -6,3 +6,8 @@
   5. Look in your phone, in Wi-fi option, the number of the wifi's ip.
   6. With the ip: adb connect 192.168.12.16:5555
 End
+
+#To consume local endpoint:
+  1. It's necessary run this command: "adb reverse tcp:2242 tcp:2242". In this case, 2242 is the API port. If you are using a diferent one, change it.
+  2. Ensure to use the complet path in your string. In the URI, don't forget to put "http://".
+
