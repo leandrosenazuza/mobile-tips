@@ -13,3 +13,4 @@ End
 
 #To publish the project
   1. Ensure your project are up to date: "flutter upgrade" and "flutter pub upgrade"
+  2. To generate the archive to deploy a project, you must execute "flutter build appbundle --release"  
